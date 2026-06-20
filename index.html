@@ -108,10 +108,24 @@
                     font-size: 1rem;
                 }
 
-                /* Collapse spacing between Website and Download Resume */
+                /* Website and Download Resume: bigger, pushed down */
                 .header-info p {
                     margin-top: 0;
                     margin-bottom: 0;
+                }
+
+                .header-info .icon-row a,
+                .header-info .icon-row i {
+                    font-size: 1.1rem;
+                }
+
+                .header-info {
+                    padding-top: 8px;
+                }
+
+                /* Push website/resume block down from the headshot row */
+                .header-info > p:first-of-type {
+                    margin-top: 20px !important;
                 }
 
                 /* Icon rows layout */
@@ -177,13 +191,16 @@
                 }
 
                 .mobile-name-block h1 {
-                    font-size: 1.5rem;
+                    font-size: 1.85rem;
+                    font-weight: 800;
                     margin: 0 0 2px 0;
                 }
 
                 .mobile-name-block p {
                     margin: 0;
-                    font-size: 0.9rem;
+                    font-size: 0.78rem;
+                    line-height: 1.2;
+                    letter-spacing: 0;
                 }
             }
         </style>
